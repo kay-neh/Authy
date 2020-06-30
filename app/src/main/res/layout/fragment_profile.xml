@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="?attr/colorSurface"
+                    card_view:cardCornerRadius="75dp">
+
+                    <ImageView
+                        android:id="@+id/photo_profile"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="16dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/me" />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Username"
+                    android:textAppearance="?attr/textAppearanceHeadline5" />
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="com.example@gmail.com"
+                    android:textAppearance="?attr/textAppearanceSubtitle1" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/inset_divider" />
+
+            </LinearLayout>
+
+            <!--Header Account-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Account"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:background="@drawable/inset_divider" />
+
+            <!--Edit Personal Information -->
+            <LinearLayout
+                android:id="@+id/edit_personal_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:text="Edit Personal Information"
+                    android:textColor="@color/craneGrey"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/arrow_forward"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:background="@drawable/inset_divider" />
+
+            <!--Sign out  -->
+            <LinearLayout
+                android:id="@+id/logout_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="Sign out"
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:textColor="?attr/colorSecondary" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:background="@drawable/inset_divider" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+</layout>

@@ -1,0 +1,93 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/cranePurpleLight</item>
+        <item name="colorPrimaryDark">@color/cranePurpleDark</item>
+        <item name="colorPrimaryVariant">@color/cranePurple</item>
+        <item name="colorSecondary">@color/craneRed</item>
+        <item name="colorOnError">@android:color/holo_orange_light</item>
+
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Crane.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Crane.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Crane.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Crane.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Crane.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Crane.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Crane.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Crane.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Crane.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Crane.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Crane.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Crane.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Crane.Overline</item>
+
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+    </style>
+
+    <style name="SplashScreenTheme" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <!--Material alert dialog theme overlay -->
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.App.Title.Text</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialog.App.Body.Text</item>
+    </style>
+
+    <style name="MaterialAlertDialog.App.Title.Text" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MaterialAlertDialog.App.Body.Text" parent="MaterialAlertDialog.MaterialComponents.Body.Text">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--toolbar style for navigation ui-->
+    <style name="MyThemeOverlay_Toolbar" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
+        <!-- color used by navigation icon and overflow icon -->
+        <item name="colorOnPrimary">?attr/colorOnSurface</item>
+    </style>
+
+    <!--custom typography-->
+    <style name="TextAppearance.Crane.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/raleway_light</item>
+    </style>
+    <style name="TextAppearance.Crane.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/raleway_regular</item>
+    </style>
+    <style name="TextAppearance.Crane.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">@font/raleway_semibold</item>
+    </style>
+    <style name="TextAppearance.Crane.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/raleway_semibold</item>
+    </style>
+    <style name="TextAppearance.Crane.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/raleway_semibold</item>
+    </style>
+    <style name="TextAppearance.Crane.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/raleway_semibold</item>
+    </style>
+    <style name="TextAppearance.Crane.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/raleway_medium</item>
+    </style>
+    <style name="TextAppearance.Crane.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/raleway_semibold</item>
+    </style>
+    <style name="TextAppearance.Crane.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/raleway_semibold</item>
+    </style>
+    <style name="TextAppearance.Crane.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/raleway_regular</item>
+    </style>
+    <style name="TextAppearance.Crane.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/raleway_semibold</item>
+    </style>
+    <style name="TextAppearance.Crane.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/raleway_medium</item>
+    </style>
+    <style name="TextAppearance.Crane.Overline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/raleway_semibold</item>
+    </style>
+
+</resources>

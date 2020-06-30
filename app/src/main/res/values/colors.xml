@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cranePurple">#5D1049</color>
+    <color name="cranePurpleDark">#4E0D3A</color>
+    <color name="cranePurpleLight">#720D5D</color>
+
+    <color name="cranePurpleLightTint">#66720D5D</color>
+    <color name="craneGrey">#80000000</color>
+    <color name="craneGreen">#00e676</color>
+
+    <color name="cranePurple50">#fff7ff</color>
+    <color name="cranePurple70">#d673ba</color>
+
+    <color name="craneRed">#E30425</color>
+</resources>
